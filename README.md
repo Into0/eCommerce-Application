@@ -49,3 +49,16 @@ Online store built with Vue, CommerceTools, TypeScript, and Vite.
 
 ### Testing
 ```npm run test``` - Runs Vitest
+
+## Commit message conventions
+Use standardized commit messages described below.
+
+```
+feat: a new feature
+fix: a bug fix
+docs: documentation changes
+style: code formatting changes
+refactor: code refactoring
+test: adding or fixing tests
+chore: updates to build tasks, configs, etc
+```
