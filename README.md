@@ -11,6 +11,7 @@ Online store built with Vue, CommerceTools, TypeScript, and Vite.
 ### Code Quality & Formatting
 - ESLint
 - Prettier
+- StyleLint
 - Husky
 - lint-staged
 
@@ -29,3 +30,22 @@ Online store built with Vue, CommerceTools, TypeScript, and Vite.
 3. Install dependencies:
     ```bash
     npm i
+
+## Available scripts
+
+### Development
+```npm run dev``` - Starts development server\
+```npm run preview``` - Previews production build locally
+
+### Building
+```npm run build``` - Creates production-ready build
+
+### Code Quality
+```npm run lint``` - Runs ESLint\
+```npm run lint:fix``` - Runs ESLint --fix\
+```npm run format``` - Formats with Prettier\
+```npm run stylelint``` - Runs StyleLint\
+```npm run stylelint:fix``` - Runs StyleLint --fix
+
+### Testing
+```npm run test``` - Runs Vitest
