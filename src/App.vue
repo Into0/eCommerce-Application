@@ -4,4 +4,8 @@
   <div class="wrapper"></div>
 </template>
 
-<style scoped></style>
+<style scoped>
+.wrapper {
+  display: flex;
+}
+</style>
